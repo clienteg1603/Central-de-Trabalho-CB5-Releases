@@ -2,19 +2,20 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.9",
+  "Version": "0.22.10",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.9/Central-de-Trabalho-v0.22.9.zip",
-  "PackageSha256": "88B9B93BAC7E076260A5192F4DDFDE5E2EF9A8300EE4D268A533CDCBD96CEF12",
-  "PackageSize": 389767,
-  "PackageRoot": "Central-de-Trabalho-v0.22.9",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.10/Central-de-Trabalho-v0.22.10.zip",
+  "PackageSha256": "68E28C85CF71E5305AC1F93C09A18518DC70C84AE20A707E2FBCA0CDB49F42A7",
+  "PackageSize": 391339,
+  "PackageRoot": "Central-de-Trabalho-v0.22.10",
   "ReleaseNotes": [
-    "Central v0.22.9 — corrige a falha de inicialização introduzida na v0.22.8.",
-    "O card Pesquisa não acessa mais a paleta antes de a Central inicializá-la.",
-    "Mantida integralmente a Pesquisa de Planilhas v0.1.0 e os demais módulos da v0.22.8.",
-    "A publicação agora exige teste de inicialização real da Central, além dos testes estruturais.",
-    "O pacote continua protegido, sem código-fonte externo, e compatível com o Atualizador v1.0.3.",
-    "Central v0.22.9, Pesquisa v0.1.0, Gerenciador v3.7.22, Manutenção v0.6.18, NF Entrada v2.6.27 e Atualizador v1.0.3.",
-    "Publicação somente no canal Teste; a Estável permanece v0.22.1."
+    "Central v0.22.10 — corrige a integração hospedada da Pesquisa de Planilhas.",
+    "Corrigido o erro Módulo integrado desconectado: Search ao usar ABRIR PESQUISA.",
+    "A Pesquisa passa a participar do estado de saúde da Central como quarto módulo; a lateral mostra 4 módulos disponíveis.",
+    "A Pesquisa agora confirma o mesmo contrato visual hospedado usado pelos demais módulos.",
+    "O card Pesquisa recebe integralmente a estilização do tema Técnico industrial.",
+    "O autoteste de publicação agora abre a Pesquisa por dentro da Central e exige Search/hosted-open válido.",
+    "Pacote protegido, sem fonte externa; Pesquisa v0.1.0, Gerenciador v3.7.22, Manutenção v0.6.18, NF Entrada v2.6.27 e Atualizador v1.0.3.",
+    "Somente canal Teste; Estável permanece v0.22.1."
   ]
 }
