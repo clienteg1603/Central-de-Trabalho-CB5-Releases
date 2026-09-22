@@ -2,19 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.15",
+  "Version": "0.22.16",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.15/Central-de-Trabalho-v0.22.15.zip",
-  "PackageSha256": "F03DF092A38502498486B9E7EED5661E35F87A79B168BE418B07ED6044B95FC5",
-  "PackageSize": 396034,
-  "PackageRoot": "Central-de-Trabalho-v0.22.15",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.16/Central-de-Trabalho-v0.22.16.zip",
+  "PackageSha256": "B10510FE6824CF484913B50E678832550E84C0E4719FE72D6180B94542F22CE4",
+  "PackageSize": 396957,
+  "PackageRoot": "Central-de-Trabalho-v0.22.16",
   "ReleaseNotes": [
-    "Central v0.22.15 — corrige a leitura interna das planilhas históricas.",
-    "Cabeçalhos antigos de Série, Lote/OP, NF/NFe, ASTEC/Reparo, ICCID, Operadora e Versão passam a ser reconhecidos.",
-    "Pesquisa por NF/lote ganha fallback no arquivo mesmo quando a estrutura interna é incomum.",
-    "Estatísticas passam a separar Peças processadas, Séries diferentes, Séries duplicadas e Retornos.",
-    "RECONSTRUIR DADOS relê somente arquivos sem registros ou lotes sem peças.",
-    "Atualização normal continua incremental e rápida.",
-    "Somente canal Teste; Estável permanece v0.22.1."
+    "Central v0.22.16 - Search indexing and rebuild run in background.",
+    "The Central remains responsive while rebuilding, updating or retrying errors.",
+    "The worker uses a dedicated STA thread for legacy Excel compatibility.",
+    "Cancel requests stop after the current file.",
+    "v0.22.15 search and statistics fixes are preserved.",
+    "Test channel only; Stable remains v0.22.1."
   ]
 }
