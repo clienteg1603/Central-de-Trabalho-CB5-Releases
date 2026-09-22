@@ -2,17 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.27",
+  "Version": "0.22.28",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.27/Central-de-Trabalho-v0.22.27.zip",
-  "PackageSha256": "D5F0575E0A94CA8F53C2CB38368D4C9D33021274FB8ED43AE3BC2F8285031B21",
-  "PackageSize": 403189,
-  "PackageRoot": "Central-de-Trabalho-v0.22.27",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.28/Central-de-Trabalho-v0.22.28.zip",
+  "PackageSha256": "E144B10D6C1914A692DE1E6E7EF58663E3FE983322262BD0BEFE2130DB31CF0A",
+  "PackageSize": 403183,
+  "PackageRoot": "Central-de-Trabalho-v0.22.28",
   "ReleaseNotes": [
-    "Central v0.22.27 - hotfix da integracao da Pesquisa de Planilhas.",
-    "Corrige a falha causada por referencia a variavel inexistente $rootLabel.",
-    "Mantem todas as melhorias visuais e funcionais da v0.22.26.",
-    "Nao altera indice, modelos de Padronizacao, regras de familias ou dados do usuario.",
+    "Central v0.22.28 - hotfix dos eventos da Pesquisa de Planilhas.",
+    "Corrige o erro de KeyCode ao digitar na caixa de pesquisa no Windows PowerShell 5.1.",
+    "Troca $args por $eventArgs nos eventos de teclado e duplo clique da Pesquisa.",
+    "Mantem indice, modelos, regras de familias e melhorias da v0.22.27.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
