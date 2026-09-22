@@ -2,19 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.26",
+  "Version": "0.22.27",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.26/Central-de-Trabalho-v0.22.26.zip",
-  "PackageSha256": "CFA37D1C0EFE0BFA3F299A479CB0C3FAC7EF828BF46B071EB9C48845BCC09E5D",
-  "PackageSize": 403174,
-  "PackageRoot": "Central-de-Trabalho-v0.22.26",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.27/Central-de-Trabalho-v0.22.27.zip",
+  "PackageSha256": "D5F0575E0A94CA8F53C2CB38368D4C9D33021274FB8ED43AE3BC2F8285031B21",
+  "PackageSize": 403189,
+  "PackageRoot": "Central-de-Trabalho-v0.22.27",
   "ReleaseNotes": [
-    "Central v0.22.26 - Etapa 4 de simplificacao e acabamento da Pesquisa.",
-    "Busca sem resultado mostra orientacao no rodape.",
-    "Padronizacao, Problemas e Arquivos indexados ganham estados vazios e contagens mais claras.",
-    "Resumo usa ATUALIZAR RESUMO e a Base explica de forma direta o que acontece com as planilhas.",
-    "Dicas de ajuda aparecem ao passar o mouse em acoes menos obvias.",
-    "Mantidas as regras funcionais, protecao de familias e as tres etapas anteriores.",
+    "Central v0.22.27 - hotfix da integracao da Pesquisa de Planilhas.",
+    "Corrige a falha causada por referencia a variavel inexistente $rootLabel.",
+    "Mantem todas as melhorias visuais e funcionais da v0.22.26.",
+    "Nao altera indice, modelos de Padronizacao, regras de familias ou dados do usuario.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
