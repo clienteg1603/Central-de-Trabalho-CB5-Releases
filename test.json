@@ -2,17 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.39",
+  "Version": "0.22.40",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.39/Central-de-Trabalho-v0.22.39.zip",
-  "PackageSha256": "2C841BABD22AD8E0BA06CBBC4EC40BE99AF42AD6AC00A7597AE33B762A87E2B2",
-  "PackageSize": 411819,
-  "PackageRoot": "Central-de-Trabalho-v0.22.39",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.40/Central-de-Trabalho-v0.22.40.zip",
+  "PackageSha256": "987F673566C27EC876BC0BD0CE768A7B43D1B61072D99DBAD4E70FA31AC8E679",
+  "PackageSize": 412483,
+  "PackageRoot": "Central-de-Trabalho-v0.22.40",
   "ReleaseNotes": [
-    "Central v0.22.39 - reindexacao dirigida apos conversao de reparos.",
-    "Somente os arquivos envolvidos na conversao sao relidos no indice.",
-    "Uma conversao em 4 arquivos atualiza 4 arquivos, em vez de varrer milhares de planilhas.",
-    "Mantidos motor multiplo, backup, verificacao final e heartbeat visual.",
+    "Central v0.22.40 - corrige localizacao das celulas na conversao manual de REPARO.",
+    "Usa arquivo, aba e linha que ja foram identificados pelo indice.",
+    "Se a linha mudou, faz fallback exato apenas nas abas apontadas pelo indice.",
+    "O popup final mostra detalhes dos erros e o arquivo que falhou.",
+    "Mantida reindexacao dirigida apenas aos arquivos envolvidos.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
