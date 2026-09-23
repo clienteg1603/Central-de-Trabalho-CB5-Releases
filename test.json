@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.44",
+  "Version": "0.22.45",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.44/Central-de-Trabalho-v0.22.44.zip",
-  "PackageSha256": "829DF7FA8CFC442A9B7BF9D08DC27A4A1BAFBD05ADB0EE159F7AE1A198878CB4",
-  "PackageSize": 415633,
-  "PackageRoot": "Central-de-Trabalho-v0.22.44",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.45/Central-de-Trabalho-v0.22.45.zip",
+  "PackageSha256": "38E936CE21A1F8D41E8544B1B2EFD8422C20516AEE13BDC33B47E75330738C5B",
+  "PackageSize": 416256,
+  "PackageRoot": "Central-de-Trabalho-v0.22.45",
   "ReleaseNotes": [
-    "Central v0.22.44 - primeira etapa dos filtros pela estrutura real das pastas.",
-    "Pesquisa recebe Produto, Mes e Categoria.",
-    "Categorias: Produtos finalizados, Chips, Manutencao, MDVR/AD Plus, Portateis, Pecas por NF, Laudos e CBs ADD CHIPS.",
-    "Filtros usam os caminhos ja indexados; nao exigem reconstruir a base.",
-    "Busca anterior e motor sequencial de REPARO da v0.22.43 permanecem preservados.",
-    "Somente canal Teste; Estavel permanece v0.22.1."
+    "Central v0.22.45 - navegacao da Pesquisa usando somente os filtros.",
+    "Agora o campo de texto pode ficar vazio: Produto, Ano, Mes e Categoria listam diretamente as planilhas correspondentes.",
+    "A coluna Equipamento da lista principal passa a aparecer como Produto.",
+    "A pesquisa tradicional por serie, lote, NF e outros dados continua preservada.",
+    "Filtros da v0.22.44 e motor sequencial de REPARO da v0.22.43 permanecem preservados.",
+    "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
