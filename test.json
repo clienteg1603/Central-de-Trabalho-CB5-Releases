@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.41",
+  "Version": "0.22.42",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.41/Central-de-Trabalho-v0.22.41.zip",
-  "PackageSha256": "8EFCD441EC0E24628913981142785772852B7F1B5E695A96AF916B2031E11422",
-  "PackageSize": 413302,
-  "PackageRoot": "Central-de-Trabalho-v0.22.41",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.42/Central-de-Trabalho-v0.22.42.zip",
+  "PackageSha256": "9F590907DAC5DCC9F60CA63967DDDCB3A5BC2D3E4E5E96174428702F066B837D",
+  "PackageSize": 413723,
+  "PackageRoot": "Central-de-Trabalho-v0.22.42",
   "ReleaseNotes": [
-    "Central v0.22.41 - corrige a etapa real de abertura e gravacao das planilhas na conversao manual de REPARO.",
-    "A conversao passa a editar uma copia temporaria local de caminho curto em vez de abrir o caminho original diretamente no Excel.",
-    "Apos salvar e fechar, a copia convertida e devolvida ao local original com robocopy, inclusive para caminhos extensos e OneDrive.",
-    "O backup continua sendo criado antes de qualquer alteracao no arquivo original.",
-    "Mantidos arquivo, aba e linha do indice, busca exata de seguranca, detalhes de erro e reindexacao dirigida.",
+    "Central v0.22.42 - corrige recursao do callback de progresso na reindexacao apos converter REPARO.",
+    "PowerShell 5.1 nao chama mais o proprio callback ate estourar a profundidade de chamada.",
+    "A reindexacao continua restrita aos arquivos envolvidos na conversao.",
+    "Ocorrencias antigas apenas no indice podem agora ser sincronizadas sem nova alteracao nas celulas.",
+    "Mantido o staging local da v0.22.41 para caminhos extensos e OneDrive.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
