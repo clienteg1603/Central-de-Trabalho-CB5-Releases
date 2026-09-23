@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.43",
+  "Version": "0.22.44",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.43/Central-de-Trabalho-v0.22.43.zip",
-  "PackageSha256": "013834CDC4C96DCACBE6B68E2E7FBC3521C644EBC177590082EB9B8963CC4507",
-  "PackageSize": 414438,
-  "PackageRoot": "Central-de-Trabalho-v0.22.43",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.44/Central-de-Trabalho-v0.22.44.zip",
+  "PackageSha256": "829DF7FA8CFC442A9B7BF9D08DC27A4A1BAFBD05ADB0EE159F7AE1A198878CB4",
+  "PackageSize": 415633,
+  "PackageRoot": "Central-de-Trabalho-v0.22.44",
   "ReleaseNotes": [
-    "Central v0.22.43 - corrige a aplicacao quando dois ou mais padroes de REPARO sao marcados.",
-    "Multiplos padroes sao executados automaticamente em sequencia usando a rotina individual validada na v0.22.42.",
-    "O usuario pode marcar varias linhas e clicar uma unica vez em APLICAR MARCADOS.",
-    "O progresso identifica Padrao 1 de N, Padrao 2 de N e assim por diante.",
-    "Mantidos staging local, backup, reindexacao dirigida e correcao de callback da v0.22.42.",
+    "Central v0.22.44 - primeira etapa dos filtros pela estrutura real das pastas.",
+    "Pesquisa recebe Produto, Mes e Categoria.",
+    "Categorias: Produtos finalizados, Chips, Manutencao, MDVR/AD Plus, Portateis, Pecas por NF, Laudos e CBs ADD CHIPS.",
+    "Filtros usam os caminhos ja indexados; nao exigem reconstruir a base.",
+    "Busca anterior e motor sequencial de REPARO da v0.22.43 permanecem preservados.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
