@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.40",
+  "Version": "0.22.41",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.40/Central-de-Trabalho-v0.22.40.zip",
-  "PackageSha256": "987F673566C27EC876BC0BD0CE768A7B43D1B61072D99DBAD4E70FA31AC8E679",
-  "PackageSize": 412483,
-  "PackageRoot": "Central-de-Trabalho-v0.22.40",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.41/Central-de-Trabalho-v0.22.41.zip",
+  "PackageSha256": "8EFCD441EC0E24628913981142785772852B7F1B5E695A96AF916B2031E11422",
+  "PackageSize": 413302,
+  "PackageRoot": "Central-de-Trabalho-v0.22.41",
   "ReleaseNotes": [
-    "Central v0.22.40 - corrige localizacao das celulas na conversao manual de REPARO.",
-    "Usa arquivo, aba e linha que ja foram identificados pelo indice.",
-    "Se a linha mudou, faz fallback exato apenas nas abas apontadas pelo indice.",
-    "O popup final mostra detalhes dos erros e o arquivo que falhou.",
-    "Mantida reindexacao dirigida apenas aos arquivos envolvidos.",
+    "Central v0.22.41 - corrige a etapa real de abertura e gravacao das planilhas na conversao manual de REPARO.",
+    "A conversao passa a editar uma copia temporaria local de caminho curto em vez de abrir o caminho original diretamente no Excel.",
+    "Apos salvar e fechar, a copia convertida e devolvida ao local original com robocopy, inclusive para caminhos extensos e OneDrive.",
+    "O backup continua sendo criado antes de qualquer alteracao no arquivo original.",
+    "Mantidos arquivo, aba e linha do indice, busca exata de seguranca, detalhes de erro e reindexacao dirigida.",
     "Somente canal Teste; Estavel permanece v0.22.1."
   ]
 }
