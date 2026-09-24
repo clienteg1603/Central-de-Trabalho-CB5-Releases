@@ -2,17 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.54",
+  "Version": "0.22.55",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.54/Central-de-Trabalho-v0.22.54.zip",
-  "PackageSha256": "A9B8D80247936DE86303B6EF19E46986D321D3E5F0CAAC2492E21CB50110CBD0",
-  "PackageSize": 423393,
-  "PackageRoot": "Central-de-Trabalho-v0.22.54",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.55/Central-de-Trabalho-v0.22.55.zip",
+  "PackageSha256": "73744DFAC26A67F5339D758B04D53EBBAA3078EE5621FF71295B8E39997509F8",
+  "PackageSize": 423806,
+  "PackageRoot": "Central-de-Trabalho-v0.22.55",
   "ReleaseNotes": [
-    "Central v0.22.54 - corrige a falha ao abrir Pesquisa de Planilhas dentro da Central introduzida na v0.22.53.",
-    "A arvore de navegacao agora calcula o divisor somente depois que o painel possui largura valida.",
-    "Adicionado teste real do modulo Pesquisa carregado em modo hospedado no Windows PowerShell 5.1.",
-    "Mantem arvore Ano > Mes > Categoria, Visao do Lote e busca somente de pecas reais.",
+    "Central v0.22.55 - corrige a excecao Propriedade Node ao selecionar itens da arvore de navegacao.",
+    "O evento AfterSelect agora usa SelectedNode e fallback seguro para EventArgs.",
+    "Pipeline testa explicitamente EventArgs sem propriedade Node no Windows PowerShell 5.1.",
+    "Mantem a correcao de hospedagem da v0.22.54, Visao do Lote e busca de pecas reais.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
