@@ -2,17 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.57",
+  "Version": "0.22.58",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.57/Central-de-Trabalho-v0.22.57.zip",
-  "PackageSha256": "76176497EBF3ED588FAD72229F83674C6A28E5366FEABB4BE2B88CDBEDECCDD3",
-  "PackageSize": 426095,
-  "PackageRoot": "Central-de-Trabalho-v0.22.57",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.58/Central-de-Trabalho-v0.22.58.zip",
+  "PackageSha256": "34FB537795C7ECB1983395C201C6CC6E82063C2D5327C82E05955E8EA36A8888",
+  "PackageSize": 427080,
+  "PackageRoot": "Central-de-Trabalho-v0.22.58",
   "ReleaseNotes": [
-    "Central v0.22.57 - Visao do Lote ganha filtros por Tipo, Categoria e nome do arquivo.",
-    "Arquivos relacionados agora usam catalogo leve em memoria por ate cinco minutos, evitando varrer milhares de arquivos em cada abertura.",
-    "A pesquisa normal, estatisticas e indice principal continuam somente com planilhas.",
-    "Mantem a protecao contra arquivo cujo nome declara explicitamente outro lote.",
+    "Central v0.22.58 - busca de lote passa a exibir pecas unicas por serie, sem repetir a mesma peca por cada planilha relacionada.",
+    "O rodape informa a quantidade de pecas unicas e quantas ocorrencias existiam nas planilhas.",
+    "O duplo clique prioriza Produtos finalizados e campos vazios podem ser completados com dados das outras fontes do mesmo lote.",
+    "Busca por Serie continua mostrando todas as ocorrencias e a Visao do Lote permanece responsavel por listar todos os arquivos.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
