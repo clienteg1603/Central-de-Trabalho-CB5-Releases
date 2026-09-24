@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.63",
+  "Version": "0.22.64",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.63/Central-de-Trabalho-v0.22.63.zip",
-  "PackageSha256": "B4E38221EBCB2B50E9A0096409F7667EDA4882FFA4CD67C0CE64FE3A0027E480",
-  "PackageSize": 430318,
-  "PackageRoot": "Central-de-Trabalho-v0.22.63",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.64/Central-de-Trabalho-v0.22.64.zip",
+  "PackageSha256": "910D0658A9A43487116A0D34DAF9E00369F759F4A25B3ED3FF9F0AA26311A974",
+  "PackageSize": 430477,
+  "PackageRoot": "Central-de-Trabalho-v0.22.64",
   "ReleaseNotes": [
-    "Central v0.22.63 - observacao editavel nas Manutencoes do TV5.",
-    "A coluna Observacao do TV5 agora pode ser editada diretamente no Gerenciador e e salva no perfil do usuario.",
-    "Padrao do conector do speaker alterado de CN5 CN6 para CN5 somente na Observacao.",
-    "Resistor permanece com Observacao R, inclusive para o componente R25.",
-    "Codigos, descricoes e BudgetComponent permanecem inalterados; Pesquisa de Planilhas v0.22.62 preservada.",
+    "Central v0.22.64 - a observacao editada do TV5 agora chega de fato a planilha.",
+    "Se TR for alterado de R para R25, a manutencao gerada passa a registrar TROCADO R25.",
+    "A geracao consulta a definicao efetiva e usa a Observacao atual como componente operacional.",
+    "Quando a observacao original e vazia, o BudgetComponent antigo continua como fallback, preservando BUZZER, RS485 e PROCESSADOR.",
+    "Edicao e persistencia introduzidas na v0.22.63 foram preservadas.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
