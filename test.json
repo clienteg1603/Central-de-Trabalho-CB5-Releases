@@ -2,17 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.58",
+  "Version": "0.22.59",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.58/Central-de-Trabalho-v0.22.58.zip",
-  "PackageSha256": "34FB537795C7ECB1983395C201C6CC6E82063C2D5327C82E05955E8EA36A8888",
-  "PackageSize": 427080,
-  "PackageRoot": "Central-de-Trabalho-v0.22.58",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.59/Central-de-Trabalho-v0.22.59.zip",
+  "PackageSha256": "C4337BE2AC01F524F551FC35DD0BA5F46CEF67CEFFADC5BABD9B1369939519CF",
+  "PackageSize": 427168,
+  "PackageRoot": "Central-de-Trabalho-v0.22.59",
   "ReleaseNotes": [
-    "Central v0.22.58 - busca de lote passa a exibir pecas unicas por serie, sem repetir a mesma peca por cada planilha relacionada.",
-    "O rodape informa a quantidade de pecas unicas e quantas ocorrencias existiam nas planilhas.",
-    "O duplo clique prioriza Produtos finalizados e campos vazios podem ser completados com dados das outras fontes do mesmo lote.",
-    "Busca por Serie continua mostrando todas as ocorrencias e a Visao do Lote permanece responsavel por listar todos os arquivos.",
+    "Central v0.22.59 - busca por lote ignora linhas auxiliares sem Serie, como registros dos arquivos de chips.",
+    "O lote 0726827 passa de 52 para 50 pecas unicas; as planilhas de chips continuam na Visao do Lote.",
+    "O rodape conta somente ocorrencias de pecas com Serie preenchida.",
+    "Busca por Serie, arvore, filtros e Visao do Lote permanecem preservados.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
