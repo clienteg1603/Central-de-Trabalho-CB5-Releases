@@ -2,17 +2,16 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.50",
+  "Version": "0.22.51",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.50/Central-de-Trabalho-v0.22.50.zip",
-  "PackageSha256": "C3802FB2A688996D48EFA21C500BCC752B9661E3560C65D1B2DF870BE2F14574",
-  "PackageSize": 419225,
-  "PackageRoot": "Central-de-Trabalho-v0.22.50",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.51/Central-de-Trabalho-v0.22.51.zip",
+  "PackageSha256": "DCC5B4B5D07CAD104E95440F757D1FBDDE413C854F4FA043FD42AE1150FB3D69",
+  "PackageSize": 419315,
+  "PackageRoot": "Central-de-Trabalho-v0.22.51",
   "ReleaseNotes": [
-    "Central v0.22.50 - correcao da pesquisa textual seguida de filtros.",
-    "Corrige Os tipos de argumento nao correspondem no Windows PowerShell 5.1 ao aplicar Mes/Categoria depois de uma pesquisa.",
-    "O retorno filtrado agora usa array real em vez de converter List[object] por @(...).",
-    "Filtros, Arquivos indexados, Padronizacao e Reparos permanecem preservados.",
+    "Central v0.22.51 - pesquisa de lote mostra somente pecas reais quando o arquivo possui linhas auxiliares.",
+    "O lote 0726827 e validado em teste com 65 registros totais e 50 pecas: a busca deve retornar exatamente 50.",
+    "Mantem a correcao PS5.1 da v0.22.50 e todos os filtros atuais.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
