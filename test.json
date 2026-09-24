@@ -2,17 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.52",
+  "Version": "0.22.53",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.52/Central-de-Trabalho-v0.22.52.zip",
-  "PackageSha256": "6EADC201BA53AAE511B568D4874892A2B9A24AE535B924E2105DD031CFDBF45F",
-  "PackageSize": 421628,
-  "PackageRoot": "Central-de-Trabalho-v0.22.52",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.53/Central-de-Trabalho-v0.22.53.zip",
+  "PackageSha256": "7732A33FE0EDF38C16FEB91B84FC552778A490AD718E4845F3085E8AD010AB31",
+  "PackageSize": 423286,
+  "PackageRoot": "Central-de-Trabalho-v0.22.53",
   "ReleaseNotes": [
-    "Central v0.22.52 - adiciona a Visao do Lote na Pesquisa de Planilhas.",
-    "Agrupa arquivos relacionados ao mesmo lote por categoria, produto, ano, mes, pecas, NF e arquivo.",
-    "Permite abrir a planilha ou a pasta diretamente da Visao do Lote.",
-    "Mantem a busca de pecas reais da v0.22.51 e os filtros existentes.",
+    "Central v0.22.53 - adiciona arvore visual de navegacao na Pesquisa de Planilhas.",
+    "A arvore organiza automaticamente Ano, Mes e Categoria usando o indice existente.",
+    "Clicar em um no aplica os mesmos filtros da Pesquisa; Produto e texto pesquisado continuam preservados.",
+    "Inclui botao para mostrar ou ocultar a arvore.",
+    "Mantem a Visao do Lote da v0.22.52 e a busca de pecas reais da v0.22.51.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
