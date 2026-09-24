@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.62",
+  "Version": "0.22.63",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.62/Central-de-Trabalho-v0.22.62.zip",
-  "PackageSha256": "E71D7F1A04CCF6D3CF74B7CEDD2A5BFA12DAA17DBFB37C36FB8A48ECCCC2FB67",
-  "PackageSize": 429030,
-  "PackageRoot": "Central-de-Trabalho-v0.22.62",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.63/Central-de-Trabalho-v0.22.63.zip",
+  "PackageSha256": "B4E38221EBCB2B50E9A0096409F7667EDA4882FFA4CD67C0CE64FE3A0027E480",
+  "PackageSize": 430318,
+  "PackageRoot": "Central-de-Trabalho-v0.22.63",
   "ReleaseNotes": [
-    "Central v0.22.62 - auditoria sem falsos positivos de planilhas consolidadas por NF.",
-    "Serie duplicada agora e verificada somente em planilhas primarias de lote.",
-    "Contagem divergente agora e verificada somente em planilhas primarias de lote.",
-    "Erros de leitura continuam sendo auditados em qualquer tipo de arquivo.",
-    "Sem pecas reconhecidas e Lote sem NF continuam restritos aos lotes primarios.",
+    "Central v0.22.63 - observacao editavel nas Manutencoes do TV5.",
+    "A coluna Observacao do TV5 agora pode ser editada diretamente no Gerenciador e e salva no perfil do usuario.",
+    "Padrao do conector do speaker alterado de CN5 CN6 para CN5 somente na Observacao.",
+    "Resistor permanece com Observacao R, inclusive para o componente R25.",
+    "Codigos, descricoes e BudgetComponent permanecem inalterados; Pesquisa de Planilhas v0.22.62 preservada.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
