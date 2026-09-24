@@ -2,16 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.51",
+  "Version": "0.22.52",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.51/Central-de-Trabalho-v0.22.51.zip",
-  "PackageSha256": "DCC5B4B5D07CAD104E95440F757D1FBDDE413C854F4FA043FD42AE1150FB3D69",
-  "PackageSize": 419315,
-  "PackageRoot": "Central-de-Trabalho-v0.22.51",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.52/Central-de-Trabalho-v0.22.52.zip",
+  "PackageSha256": "6EADC201BA53AAE511B568D4874892A2B9A24AE535B924E2105DD031CFDBF45F",
+  "PackageSize": 421628,
+  "PackageRoot": "Central-de-Trabalho-v0.22.52",
   "ReleaseNotes": [
-    "Central v0.22.51 - pesquisa de lote mostra somente pecas reais quando o arquivo possui linhas auxiliares.",
-    "O lote 0726827 e validado em teste com 65 registros totais e 50 pecas: a busca deve retornar exatamente 50.",
-    "Mantem a correcao PS5.1 da v0.22.50 e todos os filtros atuais.",
+    "Central v0.22.52 - adiciona a Visao do Lote na Pesquisa de Planilhas.",
+    "Agrupa arquivos relacionados ao mesmo lote por categoria, produto, ano, mes, pecas, NF e arquivo.",
+    "Permite abrir a planilha ou a pasta diretamente da Visao do Lote.",
+    "Mantem a busca de pecas reais da v0.22.51 e os filtros existentes.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
