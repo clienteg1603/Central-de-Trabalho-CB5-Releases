@@ -2,18 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.49",
+  "Version": "0.22.50",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.49/Central-de-Trabalho-v0.22.49.zip",
-  "PackageSha256": "54A813D8F3971174CFE5A7D70064AEF56CF60C111DF5C601DB5394409AD69519",
-  "PackageSize": 419211,
-  "PackageRoot": "Central-de-Trabalho-v0.22.49",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.50/Central-de-Trabalho-v0.22.50.zip",
+  "PackageSha256": "C3802FB2A688996D48EFA21C500BCC752B9661E3560C65D1B2DF870BE2F14574",
+  "PackageSize": 419225,
+  "PackageRoot": "Central-de-Trabalho-v0.22.50",
   "ReleaseNotes": [
-    "Central v0.22.49 - acabamento de Arquivos indexados.",
-    "O botao da tela passa a exibir APLICAR FILTROS corretamente.",
-    "Quando houver erro antigo de leitura OpenXML, o rodape orienta Base e indice > TENTAR ERROS.",
-    "O leitor atual continua usando acesso seguro aos atributos r/t do OpenXML.",
-    "Filtros da v0.22.48 e rotinas de Padronizacao/Reparos permanecem preservados.",
+    "Central v0.22.50 - correcao da pesquisa textual seguida de filtros.",
+    "Corrige Os tipos de argumento nao correspondem no Windows PowerShell 5.1 ao aplicar Mes/Categoria depois de uma pesquisa.",
+    "O retorno filtrado agora usa array real em vez de converter List[object] por @(...).",
+    "Filtros, Arquivos indexados, Padronizacao e Reparos permanecem preservados.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
