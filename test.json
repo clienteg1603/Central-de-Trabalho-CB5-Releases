@@ -2,17 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.55",
+  "Version": "0.22.56",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.55/Central-de-Trabalho-v0.22.55.zip",
-  "PackageSha256": "73744DFAC26A67F5339D758B04D53EBBAA3078EE5621FF71295B8E39997509F8",
-  "PackageSize": 423806,
-  "PackageRoot": "Central-de-Trabalho-v0.22.55",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.56/Central-de-Trabalho-v0.22.56.zip",
+  "PackageSha256": "6A6F99CDD6610D1A878BF7455202C44DCDC77CF8F5C3C802E09567CD67F41AB7",
+  "PackageSize": 424904,
+  "PackageRoot": "Central-de-Trabalho-v0.22.56",
   "ReleaseNotes": [
-    "Central v0.22.55 - corrige a excecao Propriedade Node ao selecionar itens da arvore de navegacao.",
-    "O evento AfterSelect agora usa SelectedNode e fallback seguro para EventArgs.",
-    "Pipeline testa explicitamente EventArgs sem propriedade Node no Windows PowerShell 5.1.",
-    "Mantem a correcao de hospedagem da v0.22.54, Visao do Lote e busca de pecas reais.",
+    "Central v0.22.56 - a Visao do Lote passa a localizar imagens, PDFs, documentos e textos relacionados ao lote.",
+    "A pesquisa normal, as estatisticas e o indice principal continuam trabalhando somente com planilhas.",
+    "Nova coluna Tipo separa Planilha, Imagem, PDF, Documento e Texto.",
+    "Preserva arvore de navegacao, Visao do Lote e busca somente das pecas reais.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
