@@ -2,18 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.61",
+  "Version": "0.22.62",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.61/Central-de-Trabalho-v0.22.61.zip",
-  "PackageSha256": "F6A1BCE0C5C53AFE9F058EC4409F2665434D6188858387B193341A7356EC8579",
-  "PackageSize": 428992,
-  "PackageRoot": "Central-de-Trabalho-v0.22.61",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.62/Central-de-Trabalho-v0.22.62.zip",
+  "PackageSha256": "E71D7F1A04CCF6D3CF74B7CEDD2A5BFA12DAA17DBFB37C36FB8A48ECCCC2FB67",
+  "PackageSize": 429030,
+  "PackageRoot": "Central-de-Trabalho-v0.22.62",
   "ReleaseNotes": [
-    "Central v0.22.61 - auditoria objetiva de qualidade da base.",
-    "Problemas encontrados agora separa erro de leitura, serie duplicada, lote sem pecas, lote sem NF e contagem divergente.",
-    "A auditoria possui filtros de Gravidade e Problema, resumo de erros/atencoes e duplo clique para abrir o arquivo afetado.",
-    "A sincronizacao incremental automatica da v0.22.60 e a limpeza de arquivos removidos permanecem preservadas.",
-    "Busca por lote com pecas unicas, arvore de localizacao e Visao do Lote permanecem preservadas.",
+    "Central v0.22.62 - auditoria sem falsos positivos de planilhas consolidadas por NF.",
+    "Serie duplicada agora e verificada somente em planilhas primarias de lote.",
+    "Contagem divergente agora e verificada somente em planilhas primarias de lote.",
+    "Erros de leitura continuam sendo auditados em qualquer tipo de arquivo.",
+    "Sem pecas reconhecidas e Lote sem NF continuam restritos aos lotes primarios.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
