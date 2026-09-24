@@ -2,18 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.53",
+  "Version": "0.22.54",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.53/Central-de-Trabalho-v0.22.53.zip",
-  "PackageSha256": "7732A33FE0EDF38C16FEB91B84FC552778A490AD718E4845F3085E8AD010AB31",
-  "PackageSize": 423286,
-  "PackageRoot": "Central-de-Trabalho-v0.22.53",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.54/Central-de-Trabalho-v0.22.54.zip",
+  "PackageSha256": "A9B8D80247936DE86303B6EF19E46986D321D3E5F0CAAC2492E21CB50110CBD0",
+  "PackageSize": 423393,
+  "PackageRoot": "Central-de-Trabalho-v0.22.54",
   "ReleaseNotes": [
-    "Central v0.22.53 - adiciona arvore visual de navegacao na Pesquisa de Planilhas.",
-    "A arvore organiza automaticamente Ano, Mes e Categoria usando o indice existente.",
-    "Clicar em um no aplica os mesmos filtros da Pesquisa; Produto e texto pesquisado continuam preservados.",
-    "Inclui botao para mostrar ou ocultar a arvore.",
-    "Mantem a Visao do Lote da v0.22.52 e a busca de pecas reais da v0.22.51.",
+    "Central v0.22.54 - corrige a falha ao abrir Pesquisa de Planilhas dentro da Central introduzida na v0.22.53.",
+    "A arvore de navegacao agora calcula o divisor somente depois que o painel possui largura valida.",
+    "Adicionado teste real do modulo Pesquisa carregado em modo hospedado no Windows PowerShell 5.1.",
+    "Mantem arvore Ano > Mes > Categoria, Visao do Lote e busca somente de pecas reais.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
