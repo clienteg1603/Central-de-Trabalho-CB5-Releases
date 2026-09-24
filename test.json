@@ -2,17 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.59",
+  "Version": "0.22.60",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.59/Central-de-Trabalho-v0.22.59.zip",
-  "PackageSha256": "C4337BE2AC01F524F551FC35DD0BA5F46CEF67CEFFADC5BABD9B1369939519CF",
-  "PackageSize": 427168,
-  "PackageRoot": "Central-de-Trabalho-v0.22.59",
+  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.60/Central-de-Trabalho-v0.22.60.zip",
+  "PackageSha256": "753FD03390A28E165FF6A58D4B8DE6BE494A63CEE76A1EE8EDA3A2C3365E800F",
+  "PackageSize": 427840,
+  "PackageRoot": "Central-de-Trabalho-v0.22.60",
   "ReleaseNotes": [
-    "Central v0.22.59 - busca por lote ignora linhas auxiliares sem Serie, como registros dos arquivos de chips.",
-    "O lote 0726827 passa de 52 para 50 pecas unicas; as planilhas de chips continuam na Visao do Lote.",
-    "O rodape conta somente ocorrencias de pecas com Serie preenchida.",
-    "Busca por Serie, arvore, filtros e Visao do Lote permanecem preservados.",
+    "Central v0.22.60 - sincronizacao incremental automatica da Pesquisa.",
+    "Ao abrir a Pesquisa, a Central confere metadados em segundo plano e processa somente arquivos novos ou alterados.",
+    "A sincronizacao remove do indice planilhas apagadas da pasta; anos sem arquivos, como 2020 e 2021 removidos pelo usuario, desaparecem da arvore apos sincronizar.",
+    "Enquanto a Pesquisa fica aberta, uma nova verificacao automatica ocorre a cada cinco minutos; SINCRONIZAR AGORA permanece como acao manual.",
+    "Busca por lote com 50 pecas unicas e Visao do Lote permanecem preservadas.",
     "Somente canal Teste; Estavel permanece inalterado."
   ]
 }
