@@ -2,20 +2,20 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.98",
+  "Version": "0.22.99",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://github.com/clienteg1603/Central-de-Trabalho-CB5-Releases/releases/download/v0.22.98/Central-de-Trabalho-v0.22.98.zip",
-  "PackageSha256": "C8B03BE46620CC3172BA9FA25E4D77BFDAC850C93E5CD4D970AAF9A55B764B53",
-  "PackageSize": 456343,
-  "PackageRoot": "Central-de-Trabalho-v0.22.98",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.99.zip",
+  "PackageSha256": "528A57218FB22E40B0B0A1C255222F5662042FE12692906EA1E636B5872C1BC5",
+  "PackageSize": 457023,
+  "PackageRoot": "Central-de-Trabalho-v0.22.99",
   "ReleaseNotes": [
-    "Central v0.22.98 - primeira evolucao funcional depois da cura visual da Pesquisa de Planilhas.",
-    "A grade principal ganhou acoes rapidas no cabecalho: Abrir Arquivo, Abrir Pasta, Copiar Caminho e Exportar CSV.",
-    "Abrir Pasta revela o arquivo selecionado no Explorer quando possivel, reaproveitando o tratamento de caminho da Visao do Lote.",
-    "Exportar CSV grava exatamente os resultados atualmente exibidos, com colunas visiveis mais Caminho completo, separador ponto e virgula e UTF-8 com BOM para Excel.",
-    "Os botoes se compactam automaticamente em largura menor sem reintroduzir repaint global pesado.",
-    "As correcoes de fluidez da v0.22.95, navegacao da v0.22.96 e recorte da v0.22.97 permanecem preservadas.",
-    "Central de Manutencao 0.6.21, Gerenciador 3.7.25 e R25 permanecem preservados.",
-    "Somente canal Teste; Estavel permanece inalterado."
+    "Central v0.22.99 - correÃ§Ã£o do Controle de NF de Entrada 2.6.29.",
+    "Corrige a falha de exportaÃ§Ã£o que podia aparecer como ConversÃ£o especificada nÃ£o Ã© vÃ¡lida.",
+    "A exportaÃ§Ã£o agora grava em cÃ³pia temporÃ¡ria e sÃ³ substitui o arquivo escolhido quando CB5 e TV5 terminam com sucesso.",
+    "Se o Excel falhar, o arquivo anterior Ã© preservado; nÃ£o fica CB5 vazio com TV5 antigo.",
+    "A gravaÃ§Ã£o das cÃ©lulas ganhou fallback controlado e, se ainda falhar, informa produto, linha e campo.",
+    "A exportaÃ§Ã£o ganhou janela de progresso com porcentagem e indicaÃ§Ã£o da etapa, CB5 e TV5.",
+    "Gerador 3.7.25, ManutenÃ§Ã£o 0.6.21, Pesquisa e R25 permanecem os mesmos da v0.22.98.",
+    "Somente canal Teste; EstÃ¡vel permanece inalterado."
   ]
 }
