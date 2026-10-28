@@ -2,17 +2,18 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.102",
-  "MinimumUpdaterVersion": "1.0.5",
-  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.102.zip",
-  "PackageSha256": "FFFDEE15E11E1D4D86C2C69D2624EBE406BE444ECA99BB08762A8354802EAF9F",
-  "PackageSize": 467830,
-  "PackageRoot": "Central-de-Trabalho-v0.22.102",
+  "Version": "0.22.103",
+  "MinimumUpdaterVersion": "1.0.6",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.103.zip",
+  "PackageSha256": "C7455902744806CC67CCBB59921A7414EB4E3A8470314DD1A85AB498F179A12E",
+  "PackageSize": 471811,
+  "PackageRoot": "Central-de-Trabalho-v0.22.103",
   "ReleaseNotes": [
-    "Atualizador 1.0.5: corrige a falha de backup que podia interromper a atualização com a mensagem 'Caracteres inválidos no caminho'.",
-    "O backup deixa de criar uma segunda transação atômica desnecessária para cada arquivo e passa a usar cópia durável em uma pasta privada de backup.",
-    "Caminhos estendidos/longos do Windows são normalizados durante a cópia e, se um arquivo ainda falhar, a mensagem informa origem, destino e arquivo relativo.",
-    "Gerenciador 3.7.27, Manutenção 0.6.22, Controle de NF 2.6.30, Pesquisa e R25 permanecem preservados.",
-    "Publicação somente no canal Teste; canal Estável preservado."
+    "Atualizador 1.0.6: corrige a incompatibilidade de caminhos longos no executável que ainda podia impedir a cópia de planilhas para o backup.",
+    "A Central, o Atualizador e o reparador passam a inicializar o mesmo tratamento de caminhos do .NET, incluindo nomes com espaços, acentos e prefixo estendido.",
+    "A enumeração de pastas do backup e da restauração também passa a usar prefixo estendido desde a raiz, evitando omitir arquivos em subpastas muito profundas.",
+    "O autoteste do próprio Atualizador passa a executar backup real com caminhos longos, conferência SHA-256, atualização e restauração em pastas isoladas.",
+    "Backup interrompido é removido com segurança antes da troca do programa; se a limpeza falhar, a mensagem informa a pasta incompleta.",
+    "Gerenciador 3.7.27 (textos TROCADO e U15), Manutenção 0.6.22, Controle de NF 2.6.30, Pesquisa, R25, bases e configurações preservados. Publicação somente no canal Teste."
   ]
 }
