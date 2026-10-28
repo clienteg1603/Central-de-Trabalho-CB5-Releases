@@ -2,23 +2,16 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.100",
+  "Version": "0.22.101",
   "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.100.zip",
-  "PackageSha256": "312349389C6293FA3179E10C2BAC3B2003CBA08345157E50B5852BB0803C3CB9",
-  "PackageSize": 466571,
-  "PackageRoot": "Central-de-Trabalho-v0.22.100",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.101.zip",
+  "PackageSha256": "C8691AA7672CEBD05D7564FEAF4CF2851A239BF9D58CDB015A89D97E423BA7AA",
+  "PackageSize": 466582,
+  "PackageRoot": "Central-de-Trabalho-v0.22.101",
   "ReleaseNotes": [
-    "Revisão preventiva da Central e dos módulos com foco em integridade dos dados e falhas durante gravações.",
-    "Gravação atômica, cópia anterior e detecção de leituras antigas nas bases de NF, Manutenção e Componentes.",
-    "Operações com vários arquivos passam a ter recuperação persistente se forem interrompidas.",
-    "Controle de NF 2.6.30: Excel em rotina STA separada, janela responsiva, progresso e conferência dos dados exportados antes de substituir o destino.",
-    "Gerenciador 3.7.26: gravação protegida de arquivos, mestres e saldos; fechamento e ações simultâneas bloqueados durante operações.",
-    "Manutenção 0.6.22: bases vazias ou de formato futuro não são tratadas como bases novas; CSV e preferências com gravação protegida.",
-    "Pesquisa 0.1.1: varreduras incompletas preservam o índice, sincronização incremental, renomeação com recuperação e proteção de planilhas alteradas durante conversão.",
-    "Atualizador 1.0.4: validação adicional de caminhos e ZIP, substituição com recuperação e preservação dos dados em falhas da atualização.",
-    "Base de compilação consolidada a partir do conteúdo efetivamente publicado na v0.22.99, mantendo compatibilidade, configurações e R25.",
-    "Polimento do resumo da NF com altura de texto medida; Atualizador mantém indicação de atividade também durante backup, instalação e restauração.",
-    "Publicação somente no canal Teste; o canal Estável permanece inalterado."
+    "Gerenciador 3.7.27: padroniza as manutenções adicionais TV5 para TROCADO BUZZER, TROCADO DIODO e TROCADO CAPACITOR.",
+    "A observação padrão de circuito integrado passa de U para U15 na tela e na planilha gerada.",
+    "Mantém a leitura de reparos antigos com U, os demais códigos e o comportamento R25/TR.",
+    "Publicação somente no canal Teste; canal Estável preservado."
   ]
 }
