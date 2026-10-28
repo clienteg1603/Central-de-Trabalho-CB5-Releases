@@ -1,0 +1,13 @@
+Reparo de emergência do Atualizador 1.0.5.
+
+Use este reparador quando a Central 0.22.100 / Atualizador 1.0.4 falhar com “Caracteres inválidos no caminho”.
+
+Passos:
+1. Mantenha a Central aberta.
+2. Feche a janela do Atualizador.
+3. Execute Reparar-Atualizador-da-Central-v1.0.5.exe.
+4. O reparador troca somente o Atualizador, preserva a instalação e abre a tela normal.
+5. Instale a Central 0.22.102 pelo canal Teste.
+
+SHA-256 do reparador:
+F9DADF6AED733546A4D6B7E4FA87395291B3EF3EC19E6D4CB735EC25040DEA0E

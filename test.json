@@ -2,16 +2,17 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.101",
-  "MinimumUpdaterVersion": "1.0.3",
-  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.101.zip",
-  "PackageSha256": "C8691AA7672CEBD05D7564FEAF4CF2851A239BF9D58CDB015A89D97E423BA7AA",
-  "PackageSize": 466582,
-  "PackageRoot": "Central-de-Trabalho-v0.22.101",
+  "Version": "0.22.102",
+  "MinimumUpdaterVersion": "1.0.5",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.102.zip",
+  "PackageSha256": "FFFDEE15E11E1D4D86C2C69D2624EBE406BE444ECA99BB08762A8354802EAF9F",
+  "PackageSize": 467830,
+  "PackageRoot": "Central-de-Trabalho-v0.22.102",
   "ReleaseNotes": [
-    "Gerenciador 3.7.27: padroniza as manutenções adicionais TV5 para TROCADO BUZZER, TROCADO DIODO e TROCADO CAPACITOR.",
-    "A observação padrão de circuito integrado passa de U para U15 na tela e na planilha gerada.",
-    "Mantém a leitura de reparos antigos com U, os demais códigos e o comportamento R25/TR.",
+    "Atualizador 1.0.5: corrige a falha de backup que podia interromper a atualização com a mensagem “Caracteres inválidos no caminho”.",
+    "O backup deixa de criar uma segunda transação atômica desnecessária para cada arquivo e passa a usar cópia durável em uma pasta privada de backup.",
+    "Caminhos estendidos/longos do Windows são normalizados durante a cópia e, se um arquivo ainda falhar, a mensagem informa origem, destino e arquivo relativo.",
+    "Gerenciador 3.7.27, Manutenção 0.6.22, Controle de NF 2.6.30, Pesquisa e R25 permanecem preservados.",
     "Publicação somente no canal Teste; canal Estável preservado."
   ]
 }
