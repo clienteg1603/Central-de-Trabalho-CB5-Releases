@@ -1,0 +1,13 @@
+{
+  "Success": true,
+  "RepairVersion": "1.0.5-r3",
+  "SourceCommit": "ce0cc31e21dd07bceac63d2386657702bc8a4866",
+  "PackageVersion": "0.22.102",
+  "Size": 219648,
+  "Sha256": "A2472E4D0ACC91C8507CF14D9124EF62B11448CBDC3A6BD88C9C199CA9080976",
+  "PayloadSha256": "31595FA464F43E10FE9D5BBB159B40738AF121AEC297A3381F3894DC98D39204",
+  "ValidationRun": "https://github.com/clienteg1603/Planilhador-de-Equipamentos/actions/runs/40708698020",
+  "ExactPayloadAndCoreVerified": true,
+  "StableChannelModified": false,
+  "TestPackageModified": false
+}
