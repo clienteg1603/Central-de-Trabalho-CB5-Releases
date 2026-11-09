@@ -2,14 +2,15 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.105",
+  "Version": "0.22.106",
   "MinimumUpdaterVersion": "1.0.6",
-  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.105.zip",
-  "PackageSha256": "6A531C87372DF8DEC39E78EA169F1E9DA551530BBA083D93C7ABC0BA098996EA",
-  "PackageSize": 428647,
-  "PackageRoot": "Central-de-Trabalho-v0.22.105",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.106.zip",
+  "PackageSha256": "1268BC528D5FC14B1756E6DD7D277665AE1AA81A5C391EFF64AD12F200ABD386",
+  "PackageSize": 433825,
+  "PackageRoot": "Central-de-Trabalho-v0.22.106",
   "ReleaseNotes": [
-    "Planilhas do Gerenciador CB5 e TV5, incluindo orçamento, manutenção, tabelas de códigos e chips, com dados em texto, Calibri, alinhamento centralizado e bordas internas e externas.",
-    "Controle de NF: abas de CB5 e TV5 com a mesma formatação. Números de NF, códigos e referências saem como texto. Datas e quantidades continuam próprias para cálculo e as fórmulas do modelo são preservadas."
+    "Pesquisa de Planilhas: em Resumo > Reparos por período, selecione as datas, o produto e o reparo para ver a quantidade de peças por mês e o total.",
+    "ASTEC 1 inclui ASTEC1 e descrições com complementos, como ASTEC 1, TROCADO C57. ASTEC sem número e os outros níveis ficam separados.",
+    "A contagem usa o índice existente e reúne duplicatas da mesma série e lote. Em meses parciais, as peças sem dia confirmado aparecem em uma coluna separada."
   ]
 }
