@@ -2,15 +2,16 @@
   "SchemaVersion": 1,
   "AppId": "central-de-trabalho",
   "Channel": "test",
-  "Version": "0.22.106",
+  "Version": "0.22.107",
   "MinimumUpdaterVersion": "1.0.6",
-  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.106.zip",
-  "PackageSha256": "1268BC528D5FC14B1756E6DD7D277665AE1AA81A5C391EFF64AD12F200ABD386",
-  "PackageSize": 433825,
-  "PackageRoot": "Central-de-Trabalho-v0.22.106",
+  "PackageUrl": "https://raw.githubusercontent.com/clienteg1603/Central-de-Trabalho-CB5-Releases/main/packages/Central-de-Trabalho-v0.22.107.zip",
+  "PackageSha256": "A7DD10100C2A4E69E002A2453E419F969996B622CEBEE4776E1EEE17B3A04033",
+  "PackageSize": 434211,
+  "PackageRoot": "Central-de-Trabalho-v0.22.107",
   "ReleaseNotes": [
-    "Pesquisa de Planilhas: em Resumo > Reparos por período, selecione as datas, o produto e o reparo para ver a quantidade de peças por mês e o total.",
-    "ASTEC 1 inclui ASTEC1 e descrições com complementos, como ASTEC 1, TROCADO C57. ASTEC sem número e os outros níveis ficam separados.",
-    "A contagem usa o índice existente e reúne duplicatas da mesma série e lote. Em meses parciais, as peças sem dia confirmado aparecem em uma coluna separada."
+    "TV5: o código TRCTL usa X2 para o cristal em Códigos, Manutenções e ao atualizar somente a mestre.",
+    "Edite a observação das manutenções adicionais do TV5 na aba Códigos. O texto salvo aparece também na aba Manutenções e na TABELA exportada.",
+    "Juntar lotes reconhece o X antigo e X2 para baixar o cristal do saldo a faturar. A mesma peça não baixa o cristal duas vezes.",
+    "Importações Chip1 e Chip2 saem sem bordas, em formato Texto, com Calibri e alinhamento central."
   ]
 }
